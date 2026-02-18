@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "How much does PLR Vault cost?",
-    a: "PLR Vault is currently on sale for $47.97, reduced from the regular price of $97.00. This one-time payment includes the complete WordPress store, 100 digital products, all premium plugins, the 25GB bonus products library, and lifetime access with no recurring fees.",
+    a: "PLR Vault is currently on sale for $27.00, reduced from the regular price of $97.00. This one-time payment includes the complete WordPress store, 100 digital products, all premium plugins, the 25GB bonus products library, and lifetime access with no recurring fees.",
   },
   {
     q: "What digital products are included in PLR Vault?",
@@ -61,7 +61,7 @@ const faqs = [
   },
   {
     q: "Are there any hidden fees or recurring costs with PLR Vault?",
-    a: "There are absolutely no hidden fees or recurring costs. The $47.97 sale price is a one-time payment that includes everything: the complete store, all 100 products, all premium plugins, the 25GB bonus library, documentation, and video tutorials. You own the store 100 percent with no monthly subscriptions or license renewals.",
+    a: "There are absolutely no hidden fees or recurring costs. The $27.00 sale price is a one-time payment that includes everything: the complete store, all 100 products, all premium plugins, the 25GB bonus library, documentation, and video tutorials. You own the store 100 percent with no monthly subscriptions or license renewals.",
   },
 ];
 
@@ -148,10 +148,10 @@ const ConversionSections = () => (
             Regular Price: <s>$97.00</s>
           </p>
           <p className="font-heading font-bold text-5xl sm:text-6xl text-primary mb-2">
-            $47.97
+            $27.00
           </p>
           <div className="inline-block bg-primary/20 text-primary text-sm font-bold px-4 py-1.5 rounded-full mb-6">
-            You Save $49.03 (50% OFF)
+            You Save $70.00 (72% OFF)
           </div>
 
           <ul className="text-secondary-foreground/80 text-sm space-y-2 text-left max-w-sm mx-auto mb-8">

@@ -61,7 +61,7 @@ const Navbar = () => {
             href="#buy"
             className="vault-cta-gradient text-primary-foreground font-heading font-bold text-sm px-6 py-2.5 rounded-lg transition-all hover:shadow-lg"
           >
-            Get PLR Vault — $47.97
+            Get PLR Vault — $27.00
           </a>
         </div>
 
@@ -93,7 +93,7 @@ const Navbar = () => {
             onClick={() => setMobileOpen(false)}
             className="block vault-cta-gradient text-primary-foreground font-heading font-bold text-sm px-6 py-3 rounded-lg text-center"
           >
-            Get PLR Vault — $47.97
+            Get PLR Vault — $27.00
           </a>
         </div>
       )}

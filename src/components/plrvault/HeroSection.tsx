@@ -20,7 +20,7 @@ const HeroSection = () => {
         {/* Sale badge */}
         <div className="inline-block mb-6 animate-badge-bounce">
           <span className="vault-cta-gradient text-primary-foreground font-heading font-bold text-sm uppercase tracking-widest px-5 py-2 rounded-full">
-            🔥 Limited Time — Save 50%
+            🔥 Limited Time — Save 72%
           </span>
         </div>
 
@@ -47,11 +47,11 @@ const HeroSection = () => {
             href="#buy"
             className="vault-cta-gradient vault-pulse text-primary-foreground font-heading font-bold text-lg px-10 py-4 rounded-xl transition-all hover:shadow-2xl inline-block"
           >
-            Unlock the Vault — $47.97
+            Unlock the Vault — $27.00
           </a>
           <span className="text-vault-grey text-sm">
             <s className="text-vault-grey/60">$97.00</s>{" "}
-            <span className="text-primary font-semibold">You save $49.03</span>
+            <span className="text-primary font-semibold">You save $70.00</span>
           </span>
         </div>
 
