@@ -6,6 +6,7 @@ import PluginsAndSteps from "@/components/plrvault/PluginsAndSteps";
 import GrowthSections from "@/components/plrvault/GrowthSections";
 import ConversionSections from "@/components/plrvault/ConversionSections";
 import VaultFooter from "@/components/plrvault/VaultFooter";
+import ConversionPopups from "@/components/plrvault/ConversionPopups";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <GrowthSections />
       <ConversionSections />
       <VaultFooter />
+      <ConversionPopups />
     </main>
   );
 };
