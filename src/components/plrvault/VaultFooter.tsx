@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const VaultFooter = () => (
   <footer className="bg-vault-navy border-t border-vault-navy-mid py-12">
     <div className="max-w-6xl mx-auto px-4">
@@ -14,14 +16,16 @@ const VaultFooter = () => (
           <p className="font-heading font-semibold text-secondary-foreground text-sm mb-3 uppercase tracking-wider">Quick Links</p>
           <ul className="space-y-2">
             {[
-              { href: "#what-is", label: "About PLR Vault" },
-              { href: "#plugins", label: "Premium Plugins" },
-              { href: "#how-it-works", label: "How It Works" },
-              { href: "#faq-section", label: "FAQ" },
-              { href: "#pricing", label: "Pricing" },
+              { to: "/#what-is", label: "About PLR Vault" },
+              { to: "/#plugins", label: "Premium Plugins" },
+              { to: "/#how-it-works", label: "How It Works" },
+              { to: "/#faq-section", label: "FAQ" },
+              { to: "/#pricing", label: "Pricing" },
+              { to: "/blog", label: "Blog" },
+              { to: "/affiliates", label: "Affiliates" },
             ].map((link) => (
-              <li key={link.href}>
-                <a href={link.href} className="text-vault-grey text-sm hover:text-primary transition-colors">
+              <li key={link.to}>
+                <a href={link.to} className="text-vault-grey text-sm hover:text-primary transition-colors">
                   {link.label}
                 </a>
               </li>
@@ -31,11 +35,16 @@ const VaultFooter = () => (
         <div>
           <p className="font-heading font-semibold text-secondary-foreground text-sm mb-3 uppercase tracking-wider">Legal</p>
           <ul className="space-y-2">
-            {["Privacy Policy", "Terms of Service", "Disclaimer", "Contact Us"].map((item) => (
-              <li key={item}>
-                <a href="#" className="text-vault-grey text-sm hover:text-primary transition-colors">
-                  {item}
-                </a>
+            {[
+              { to: "/privacy", label: "Privacy Policy" },
+              { to: "/terms", label: "Terms of Service" },
+              { to: "/disclaimer", label: "Disclaimer" },
+              { to: "/contact", label: "Contact Us" },
+            ].map((item) => (
+              <li key={item.to}>
+                <Link to={item.to} className="text-vault-grey text-sm hover:text-primary transition-colors">
+                  {item.label}
+                </Link>
               </li>
             ))}
           </ul>

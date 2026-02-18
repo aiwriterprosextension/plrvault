@@ -9,6 +9,12 @@ import OTO1 from "./pages/OTO1";
 import Downsell from "./pages/Downsell";
 import OTO2 from "./pages/OTO2";
 import ThankYou from "./pages/ThankYou";
+import Affiliates from "./pages/Affiliates";
+import Blog from "./pages/Blog";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
+import Disclaimer from "./pages/Disclaimer";
+import ContactUs from "./pages/ContactUs";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +32,12 @@ const App = () => (
             <Route path="/downsell" element={<Downsell />} />
             <Route path="/oto2" element={<OTO2 />} />
             <Route path="/thank-you" element={<ThankYou />} />
+            <Route path="/affiliates" element={<Affiliates />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
+            <Route path="/terms" element={<TermsOfService />} />
+            <Route path="/disclaimer" element={<Disclaimer />} />
+            <Route path="/contact" element={<ContactUs />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
